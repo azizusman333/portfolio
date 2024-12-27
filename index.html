@@ -10,7 +10,24 @@
 	<meta name="author" content="beshleyua" />
 
 	<!-- Title -->
-	<title>Usman-Personal Portfolio </title>
+<title>Usman-Personal Portfolio</title>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const titles = [
+            "Welcome to Usman's Portfolio",
+            "Usman - Digital Marketing Specialist",
+            "Explore My Projects",
+            "Let's Connect"
+        ];
+        let index = 0;
+
+        setInterval(() => {
+            document.title = titles[index];
+            index = (index + 1) % titles.length;
+        }, 2000);
+    });
+</script>
+
 
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
