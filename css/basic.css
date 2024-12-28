@@ -974,3 +974,18 @@ blockquote {
 
 }
 
+.service-item .icon {
+    margin-bottom: 15px;
+    font-size: 32px;  /* Same as original */
+    height: 32px;     /* Same as original */
+    width: 32px;      /* Added to ensure SVG is the same size as the icon */
+    color: #68e0cf;   /* Color to match your original style */
+}
+
+.service-item .icon svg {
+    width: 100%;      /* Ensures the SVG fills the container */
+    height: 100%;     /* Ensures the SVG fills the container */
+    display: block;   /* Ensures no extra space around the SVG */
+}
+
+
