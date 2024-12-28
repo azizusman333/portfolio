@@ -982,10 +982,6 @@ blockquote {
     color: #68e0cf;   /* Color to match your original style */
 }
 
-.service-item .icon svg {
-    width: 100%;      /* Ensures the SVG fills the container */
-    height: 100%;     /* Ensures the SVG fills the container */
-    display: block;   /* Ensures no extra space around the SVG */
-}
+
 
 
