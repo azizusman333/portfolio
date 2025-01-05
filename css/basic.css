@@ -978,7 +978,7 @@ blockquote {
     margin-bottom: 15px;
     font-size: 32px;  /* Same as original */
     height: 32px;     /* Same as original */
-    width: 32px;      /* Added to ensure SVG is the same size as the icon */
+    /* width: 32px; */ /* Commented out to disable it while keeping reference */
     color: #68e0cf;   /* Color to match your original style */
 }
 
